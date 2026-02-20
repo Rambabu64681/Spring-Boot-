@@ -1,0 +1,8 @@
+wu-transfer-service/
+  src/main/java/com/ram/wu/transfers/...
+  src/main/resources/application.yml
+  src/test/java/com/ram/wu/transfers/...
+  pom.xml
+  Dockerfile
+  README.md
+gitignore

@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: wu-transfer-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger
+
+
+
+
+    package com.ram.wu.transfers;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class WuTransferServiceApplication {
+  public static void main(String[] args) {
+    SpringApplication.run(WuTransferServiceApplication.class, args);
+  }
+}
